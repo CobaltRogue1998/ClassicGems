@@ -3,5 +3,7 @@
   "item.classicgems.sapphire": "Sapphire",
   "item.classicgems.ruby": "Ruby",
   "item.classicgems.peridot": "Peridot",
-  "block.classicgems.sapphire_ore": "Sapphire Ore"
+  "block.classicgems.sapphire_ore": "Sapphire Ore",
+  "block.classicgems.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.classicgems.sapphire_block": "Block of Sapphire"
 }

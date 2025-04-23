@@ -19,13 +19,16 @@ public class ModCreativeModeTabs {
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ClassicGems.MOD_ID);
 
     public static final Supplier<CreativeModeTab> CLASSIC_GEMS_TAB = CREATIVE_MODE_TAB.register("classic_gems",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(Items.DIAMOND))
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.SAPPHIRE.get()))
                     .title(Component.translatable("CREATIVE_MODE_TAB.classic_gems"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.SAPPHIRE);
                         output.accept(ModItems.RUBY);
                         output.accept(ModItems.PERIDOT);
                         output.accept(ModBlocks.SAPPHIRE_ORE);
+                        output.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
+                        output.accept(ModBlocks.SAPPHIRE_BLOCK);
+
 
                     }).build());
 

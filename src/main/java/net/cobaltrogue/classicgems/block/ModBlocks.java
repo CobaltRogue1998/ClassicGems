@@ -23,11 +23,23 @@ public class ModBlocks {
     public static final DeferredBlock<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of()
-                            .destroyTime(2.0f)
+                            .destroyTime(3.0f)
                             .explosionResistance(10.0f)
                             .requiresCorrectToolForDrops()
                             .sound(SoundType.STONE)));
-
+    public static final DeferredBlock<Block> DEEPSLATE_SAPPHIRE_ORE = registerBlock("deepslate_sapphire_ore",
+            () -> new DropExperienceBlock(UniformInt.of(2, 4),
+                    BlockBehaviour.Properties.of()
+                            .destroyTime(4.0f)
+                            .explosionResistance(10.0f)
+                            .requiresCorrectToolForDrops()
+                            .sound(SoundType.DEEPSLATE)));
+    public static final DeferredBlock<Block> SAPPHIRE_BLOCK = registerBlock("sapphire_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                            .destroyTime(4.0f)
+                            .explosionResistance(10.0f)
+                            .requiresCorrectToolForDrops()
+                            .sound(SoundType.METAL)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);
