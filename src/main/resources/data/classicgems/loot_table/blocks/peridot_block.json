@@ -1,0 +1,21 @@
+{
+  "type": "classicgems:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "classicgems:peridot_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "classicgems:blocks/peridot_block"
+}

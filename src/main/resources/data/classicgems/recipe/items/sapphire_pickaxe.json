@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "tools",
+  "key": {
+    "#": {
+      "item": "classicgems:sapphire"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "###",
+    " B ",
+    " B "
+  ],
+  "result": {
+    "count": 1,
+    "id": "classicgems:sapphire_pickaxe"
+  }
+}

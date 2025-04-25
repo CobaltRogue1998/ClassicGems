@@ -5,5 +5,29 @@
   "item.classicgems.peridot": "Peridot",
   "block.classicgems.sapphire_ore": "Sapphire Ore",
   "block.classicgems.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
-  "block.classicgems.sapphire_block": "Block of Sapphire"
+  "block.classicgems.sapphire_block": "Block of Sapphire",
+  "block.classicgems.peridot_ore": "Peridot Ore",
+  "block.classicgems.deepslate_peridot_ore": "Deepslate Peridot Ore",
+  "block.classicgems.peridot_block": "Block of Peridot",
+  "block.classicgems.ruby_ore": "Ruby Ore",
+  "block.classicgems.deepslate_ruby_ore": "Deepslate Ruby Ore",
+  "block.classicgems.ruby_block": "Block of Ruby",
+
+  "item.classicgems.peridot_sword": "Peridot Sword",
+  "item.classicgems.peridot_pickaxe": "Peridot Pickaxe",
+  "item.classicgems.peridot_axe": "Peridot Axe",
+  "item.classicgems.peridot_shovel": "Peridot Shovel",
+  "item.classicgems.peridot_hoe": "Peridot Hoe",
+  
+  "item.classicgems.sapphire_sword": "Sapphire Sword",
+  "item.classicgems.sapphire_pickaxe": "Sapphire Pickaxe",
+  "item.classicgems.sapphire_axe": "Sapphire Axe",
+  "item.classicgems.sapphire_shovel": "Sapphire Shovel",
+  "item.classicgems.sapphire_hoe": "Sapphire Hoe",
+
+  "item.classicgems.ruby_sword": "Ruby Sword",
+  "item.classicgems.ruby_pickaxe": "Ruby Pickaxe",
+  "item.classicgems.ruby_axe": "Ruby Axe",
+  "item.classicgems.ruby_shovel": "Ruby Shovel",
+  "item.classicgems.ruby_hoe": "Ruby Hoe"
 }

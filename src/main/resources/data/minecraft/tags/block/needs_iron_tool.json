@@ -2,7 +2,13 @@
   "values": [
     "classicgems:sapphire_ore",
     "classicgems:deepslate_sapphire_ore",
-    "classicgems:sapphire_block"
+    "classicgems:sapphire_block",
+    "classicgems:peridot_ore",
+    "classicgems:deepslate_peridot_ore",
+    "classicgems:peridot_block",
+    "classicgems:ruby_ore",
+    "classicgems:deepslate_ruby_ore",
+    "classicgems:ruby_block"
   ],
   "replace": false
 }
