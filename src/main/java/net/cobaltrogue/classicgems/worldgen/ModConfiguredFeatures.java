@@ -39,9 +39,9 @@ public class ModConfiguredFeatures {
                 OreConfiguration.target(stoneReplaceables, ModBlocks.PERIDOT_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplaceables, ModBlocks.DEEPSLATE_PERIDOT_ORE.get().defaultBlockState()));
 
-        register(context, SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(overworldSapphireOres, 6,0.4f));
-        register(context, RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(overworldRubyOres, 6,0.4f));
-        register(context, PERIDOT_ORE_KEY, Feature.ORE, new OreConfiguration(overworldPeridotOres, 6,0.4f));
+        register(context, SAPPHIRE_ORE_KEY, Feature.ORE, new OreConfiguration(overworldSapphireOres, 8,0.4f));
+        register(context, RUBY_ORE_KEY, Feature.ORE, new OreConfiguration(overworldRubyOres, 8,0.4f));
+        register(context, PERIDOT_ORE_KEY, Feature.ORE, new OreConfiguration(overworldPeridotOres, 8,0.4f));
 
     }
 
